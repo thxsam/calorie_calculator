@@ -53,25 +53,31 @@ body {
 
 /* Tableau */
 table {
-    border-collapse: collapse;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 800px;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-  }
-  
-  th {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: normal;
-  }
-  
-  td {
-    font-size: 1.1rem;
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+td {
+  font-size: 1.1rem;
+}
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
