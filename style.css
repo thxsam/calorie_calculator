@@ -82,3 +82,17 @@ td {
     align-items: center;
     margin: 0 auto;
   }
+
+/* Contact page */
+
+  .nav-item {
+    margin-left: auto;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
