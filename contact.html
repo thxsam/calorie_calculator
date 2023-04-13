@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+      form {
+        margin: auto;
+        width: 50%;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+
+      label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 2px solid #ccc;
+        font-size: 1rem;
+      }
+
+      textarea {
+        height: 200px;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      /* Add styling for the header */
+      .header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Contact</h1>
+      <a href="index.html">Calculateur</a>
+    </div>
+    <h2>Pour nous contacter, veuillez remplir le formulaire ci-dessous :</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Adresse e-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <input type="submit" value="Envoyer">
+    </form>
+    <script src="contact.js"></script>
+  </body>
+</html>
